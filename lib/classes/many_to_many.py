@@ -14,7 +14,7 @@ class Author:
 
     @name.setter
     def name(self, value):
-        raise AttributeError("Cannot modify the name attribute")
+        raise AttributeError("Cannot modify the name attribute.")
 
     def add_article(self, magazine, title):
         if not isinstance(magazine, Magazine):
